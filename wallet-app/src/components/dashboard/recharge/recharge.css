@@ -1,0 +1,53 @@
+body {
+  background-color: #f0f5ea;
+}
+
+.recharge-container {
+  background-color: #385723;
+  padding: 20px;
+  border-radius: 10px;
+  width: 34%;
+}
+
+.label-text {
+  color: #c9f4aa;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.amount-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #385723;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none; /* Remove the default outline */
+}
+
+.recharge-currency-label {
+  background-color: #659a4e;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 10px 15px;
+}
+
+.amount-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.recharge-btn {
+  background-color: #659a4e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.recharge-btn:hover {
+  background-color: #568e43;
+}

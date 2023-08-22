@@ -1,0 +1,36 @@
+/* MyNavbar.css */
+
+.custom-navbar {
+  background-color: #fcbaad;
+  color: #6b2c19;
+  padding: 10px 0;
+}
+
+.wallet-title {
+  font-size: 24px;
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+}
+
+.logout-button {
+  background-color: #6b2c19;
+  color: #fcbaad;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #7c3f20;
+}
+
+.username {
+  font-size: 24px;
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #6b2c19;
+}

@@ -1,0 +1,75 @@
+/* Center container */
+.custom-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30vh; /* Set container height to the full viewport height */
+}
+/* Header styles for Current Balance */
+.balance-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Account balance field styles */
+.account-balance {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #91c8e4; /* Set a color for the account balance */
+}
+
+/* Common styles for all circular elements */
+.circular {
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 20px; /* You can use shorthand to set padding on all sides */
+  border: none; /* Remove the border style, it's already circular */
+  font-size: 16px;
+  font-weight: bold; /* Make the text bold for better readability */
+  text-align: center; /* Center the text horizontally */
+  width: 150px; /* Set a fixed width to keep the elements uniform */
+  margin: 10px; /* Add some space between the elements */
+  transition: background-color 0.3s ease; /* Add a smooth transition for background color changes */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the elements */
+  user-select: none; /* Prevent text selection when clicking on the elements */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis (...) for truncated text */
+}
+
+/* Styles for each specific circular element */
+.recharge {
+  background-color: #c9f4aa;
+  color: #385723; /* Add a contrasting text color */
+}
+
+.transfer {
+  background-color: #f94c10;
+  color: #fff; /* Set the text color to white for better visibility on the orange background */
+}
+
+.stmt {
+  background-color: #fcbaad;
+  color: #6b2c19; /* Add a contrasting text color */
+  max-width: 180px; /* Set a maximum width for the "stmt" button */
+  overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis (...) for truncated text */
+}
+
+/* Add :active pseudo-class for each specific circular element */
+.recharge:active {
+  background-color: #a5d875; /* Change the background color when the element is active */
+}
+
+.transfer:active {
+  background-color: #d13800; /* Change the background color when the element is active */
+}
+
+.stmt:active {
+  background-color: #e68170; /* Change the background color when the element is active */
+}

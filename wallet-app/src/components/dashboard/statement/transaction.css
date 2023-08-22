@@ -1,0 +1,24 @@
+.transaction-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.transaction-statement-container {
+  background-color: #fcbaad;
+  color: #6b2c19;
+  border-radius: 10px;
+  max-width: 700px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.transaction-statement-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  gap: 10px;
+}

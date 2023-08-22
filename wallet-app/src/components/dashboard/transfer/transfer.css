@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f5ea;
+}
+
+.transfer-container {
+  background-color: #6b2c19;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.label-text {
+  color: #f0f5ea;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.amount-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #f0f5ea;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+}
+
+.currency-label {
+  background-color: #f94c10;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 10px 15px;
+}
+
+.amount-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.transfer-btn {
+  background-color: #f94c10;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.transfer-btn:hover {
+  background-color: #c63a0a;
+}
